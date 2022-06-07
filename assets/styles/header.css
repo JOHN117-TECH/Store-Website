@@ -61,7 +61,8 @@
 .header__search-form {
     position: absolute;
     top: 110%;
-    right: -110%;
+    right: -110rem;
+    /* transform: translateX(200rem); */
     width: 50rem;
     height: 4.5rem;
     background: var(--white);
@@ -96,6 +97,7 @@
 /*  Javascript */
 .header__search-form.active {
     right: 2rem;
+    /* transform: translateX(15rem); */
     transition: .4s linear;
-    
+
 }
