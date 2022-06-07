@@ -219,3 +219,8 @@
     right: 2rem;
     transition: .4s linear;
 }
+
+.header__login-form.active {
+    right: 2rem;
+    transition: .4s linear;
+}
