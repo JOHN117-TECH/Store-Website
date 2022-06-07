@@ -34,3 +34,7 @@ html {
 body {
     background: var(--grey);
 }
+
+section {
+    padding: 2rem 9%;
+}

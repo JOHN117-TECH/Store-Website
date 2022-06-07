@@ -1,0 +1,31 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home__content {
+    text-align: center;
+    width: 60rem;
+}
+
+.home__content--title {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home__content--title span {
+    color: var(--orange);
+}
+
+.home__content--text {
+    color: var(--light-color);
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}

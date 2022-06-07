@@ -7,6 +7,11 @@
         padding: 1rem;
 
     }
+
+    section {
+        padding: 2rem;
+    }
+
 }
 
 @media (max-width:760px) {
@@ -53,17 +58,23 @@
     .header__navbar a:link,
     a:visited {
         font-size: 2rem;
-        margin: 2rem 2.5rem;
+        margin: 2.5rem 2.5rem;
         padding: 0.5rem;
         display: block;
     }
 
     .header__shopping-cart {
         width: 90%;
+        padding: 0rem;
+    }
+
+    .header__shopping-cart--total {
+        padding: 0.5rem 0;
     }
 
     .header__login-form {
         width: 90%;
+        padding: 4rem;
     }
 
     .header__login-form--input {

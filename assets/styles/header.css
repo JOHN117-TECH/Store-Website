@@ -105,6 +105,7 @@ a:active {
     box-shadow: var(--box-shadow);
     width: 30rem;
     background: var(--white);
+    height: auto;
 }
 
 .header__shopping-cart--total {
