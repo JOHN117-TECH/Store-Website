@@ -73,7 +73,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.header__search-form input {
+.header__search-form--input {
     height: 100%;
     width: 100%;
     background: none;
@@ -83,14 +83,14 @@
     padding: 0 1.5rem;
 }
 
-.header__search-form label {
+.header__search-form--label {
     font-size: 2.2rem;
     padding-right: 1.5rem;
     color: var(--black);
     cursor: pointer;
 }
 
-.header__search-form label:hover {
+.header__search-form--label:hover {
     color: var(--orange);
 }
 
@@ -113,15 +113,9 @@
 }
 
 .header__shopping-cart--btn {
-    margin-top: 1rem;
     display: block;
-    padding: .8rem 3rem;
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    border: .2rem solid var(--black);
-    color: var(--black);
-    cursor: pointer;
     text-align: center;
+    margin: 1rem;
 }
 
 .header__shopping-cart--btn:hover {
@@ -168,6 +162,49 @@
 
 .box__content--quantity {
     padding-left: 1rem;
+}
+
+.header__login-form {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: var(--white);
+    text-align: center;
+}
+
+.header__login-form--title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+}
+
+.header__login-form--input {
+    margin: .8rem 0;
+    background: var(--grey);
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.header__login-form--input::placeholder {
+    color: var(--orange);
+}
+
+.header__login-form--text {
+    font-size: 1.4rem;
+    padding: .8rem 0;
+    color: var(--light-color);
+}
+
+.header__login-form--text a {
+    color: var(--orange);
+    text-decoration: underline;
 }
 
 /*  Javascript */

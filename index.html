@@ -25,6 +25,7 @@
       <a href="#" class="header--logo">
         <i class="fas fa-shopping-basket"></i> Groco</a
       >
+
       <nav class="header__navbar">
         <a href="#home">home</a>
         <a href="#features">features</a>
@@ -33,6 +34,7 @@
         <a href="#review">review</a>
         <a href="#blogs">blogs</a>
       </nav>
+
       <div class="header__icons">
         <div class="fas fa-bars header__icons--item" id="menu-btn"></div>
         <div class="fas fa-search header__icons--item" id="search-btn"></div>
@@ -43,11 +45,20 @@
         <div class="fas fa-user header__icons--item" id="login-btn"></div>
 
         <form action="" class="header__search-form">
-          <input type="search" id="search-box" placeholder="search here ..." />
-          <label for="search-box" class="fas fa-search"></label>
+          <input
+            class="header__search-form--input"
+            type="search"
+            id="search-box"
+            placeholder="search here ..."
+          />
+          <label
+            class="header__search-form--label"
+            for="search-box"
+            class="fas fa-search"
+          ></label>
         </form>
       </div>
-
+      <!-- Header shopping-cart start -->
       <div class="header__shopping-cart">
         <div class="shopping-cart__box">
           <i class="fas fa-trash shopping-cart__box--icon"></i>
@@ -89,8 +100,31 @@
           </div>
         </div>
         <div class="header__shopping-cart--total">total : $19.69/-</div>
-        <a href="#" class="header__shopping-cart--btn">checkout</a>
+        <a href="#" class="header__shopping-cart--btn u-btn">checkout</a>
       </div>
+      <!-- Header shopping-cart end -->
+      <!-- Header login-form start -->
+      <form action="" class="header__login-form">
+        <h3 class="header__login-form--title">login now</h3>
+        <input
+          type="email"
+          placeholder="your email"
+          class="header__login-form--input"
+        />
+        <input
+          type="password"
+          placeholder="your password"
+          class="header__login-form--input"
+        />
+        <p class="header__login-form--text">
+          forget your password <a href="#">click here</a>
+        </p>
+        <p class="header__login-form--text">
+          don't have an account <a href="#">create now</a>
+        </p>
+        <input type="submit" value="login now" class="u-btn" />
+      </form>
+      <!-- Header login-form end -->
     </header>
 
     <!-- Header section ends -->
