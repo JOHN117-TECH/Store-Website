@@ -221,3 +221,14 @@
     right: 2rem;
     transition: .4s linear;
 }
+
+.header__navbar.active {
+    right: 2rem;
+    transition: .4s linear;
+
+}
+
+.header__icons--item.active-btn {
+    background: var(--orange);
+    color: var(--white);
+}
