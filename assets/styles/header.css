@@ -177,3 +177,8 @@
     transition: .4s linear;
 
 }
+
+.header__shopping-cart.active {
+    right: 2rem;
+    transition: .4s linear;
+}

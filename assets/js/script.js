@@ -7,3 +7,8 @@ document.querySelector('#search-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
+let shoppingCart = document.querySelector('.header__shopping-cart');
+
+document.querySelector('#cart-btn').onclick = () => {
+  shoppingCart.classList.toggle('active');
+}
