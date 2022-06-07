@@ -92,3 +92,10 @@
 .header__search-form label:hover {
     color: var(--orange);
 }
+
+/*  Javascript */
+.header__search-form.active {
+    right: 2rem;
+    transition: .4s linear;
+    
+}
