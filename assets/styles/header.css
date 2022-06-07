@@ -22,15 +22,20 @@
     color: var(--orange);
 }
 
-.header__navbar a {
+.header__navbar a:link,
+a:visited {
     font-size: 1.7rem;
     margin: 0 1rem;
     color: var(--black);
 }
 
-.header__navbar a:hover {
+.header__navbar a:hover,
+a:active {
     color: var(--orange);
+    text-decoration: underline;
 }
+
+
 
 
 .header__icons--item {
