@@ -23,13 +23,19 @@
         box-shadow: var(--box-shadow);
         border-radius: .5rem;
         background: var(--white);
-
+        text-align: center;
     }
 
-    .header__navbar a {
+    .header__navbar a:link,
+    a:visited {
         font-size: 2rem;
-        margin: 2rem 2.5rem;
+        margin: 2rem 0rem;
+        padding: 0.5rem;
         display: block;
+    }
+
+    .header__search-form {
+        width: 90%;
     }
 }
 
@@ -37,5 +43,34 @@
 @media (max-width:450px) {
     html {
         font-size: 50%;
+    }
+
+    .header__navbar {
+        width: 25rem;
+        text-align: right;
+    }
+
+    .header__navbar a:link,
+    a:visited {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        padding: 0.5rem;
+        display: block;
+    }
+
+    .header__shopping-cart {
+        width: 90%;
+    }
+
+    .header__login-form {
+        width: 90%;
+    }
+
+    .header__login-form--input {
+        width: 100%;
+    }
+
+    .header__login-form--text {
+        font-size: 1.6rem;
     }
 }
