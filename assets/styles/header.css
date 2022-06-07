@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 2rem 7%;
     background: #fff;
     box-shadow: var(--box-shadow);
 }
@@ -51,9 +51,6 @@
     color: var(--white);
 }
 
-/* #search-btn,
-#cart-btn,
-#login-btn  */
 #menu-btn {
     display: none;
 }
