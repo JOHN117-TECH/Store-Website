@@ -46,6 +46,12 @@
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
+.u-heading span.message {
+    transform: translatey(-10%);
+    padding: 0.5rem 2rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
 
 .u-outline {
     outline: var(--outline);
