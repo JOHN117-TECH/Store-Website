@@ -1,3 +1,9 @@
+@media (max-width:1024px) {
+    .review__container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width:991px) {
     html {
         font-size: 55%;
@@ -52,6 +58,19 @@
     }
 
     /* ################## */
+    .review-slider {
+        display: none;
+    }
+
+    .review-slider--mobile {
+        display: block;
+        width: 60rem;
+    }
+
+    .u-none {
+        display: contents;
+    }
+
 }
 
 
@@ -96,4 +115,19 @@
     .header__login-form--text {
         font-size: 1.6rem;
     }
+
+    /* ################## */
+
+    .review-slider--mobile {
+        width: 45rem;
+    }
+}
+
+@media (max-width:375px) {
+
+
+    .review-slider--mobile {
+        width: 35rem;
+    }
+
 }

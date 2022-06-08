@@ -40,6 +40,13 @@
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
+.u-heading span.right-point {
+    padding: .5rem 2.5rem;
+    padding-left: 1.5rem;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+
 .u-outline {
     outline: var(--outline);
     outline-offset: -1rem;
@@ -48,4 +55,8 @@
 .u-outline:hover {
     outline: var(--outline-hover);
     outline-offset: 0;
+}
+
+.u-none {
+    display: none;
 }

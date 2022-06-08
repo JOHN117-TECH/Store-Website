@@ -75,3 +75,15 @@ var swiper = new Swiper(".products__product", {
     },
   },
 });
+
+var swiper = new Swiper(".review-slider", {
+  effect: "cards",
+  grabCursor: true,
+});
+
+var swiper = new Swiper(".review-slider--mobile", {
+  loop: true,
+  spaceBetween: 20,
+  centeredSlides: true,
+  slidesPerView: 1,
+});

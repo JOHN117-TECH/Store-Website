@@ -1,0 +1,62 @@
+.review__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review__form {
+    background: var(--white);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    transition: all .2s linear;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+}
+
+
+.review-slider {
+    width: 50rem;
+    height: 50rem;
+    padding: 1rem;
+}
+
+.review-slider--mobile {
+    display: none;
+    width: 70rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.review__box {
+    background: var(--white);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    transition: all .2s linear;
+    box-shadow: var(--box-shadow);
+}
+
+.review__box--img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.review__box--comment {
+    padding: 1rem 0;
+    line-height: var(--line-height);
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.review__box--author {
+    padding: .5rem;
+    color: var(--black);
+    font-size: 2.2rem;
+}
+
+.review__box--stars i {
+    color: var(--orange);
+    font-size: 1.7rem;
+}
