@@ -20,7 +20,7 @@
 
 }
 
-@media (max-width:760px) {
+@media (max-width:768px) {
 
     .u-heading {
         font-size: 2.5rem;
@@ -70,6 +70,20 @@
     .u-none {
         display: contents;
     }
+
+    /* ################## */
+    .container__box:nth-child(4n) {
+        text-align: center;
+        grid-column: 1/4;
+        grid-row: 2/3;
+        padding: 0.5rem 2rem;
+    }
+
+    .container__box--input {
+        width: 50%;
+        margin: .7rem 1.5rem;
+    }
+
 
 }
 
@@ -124,6 +138,18 @@
 
     .review__form--input {
         width: 100%;
+    }
+
+    /* ################## */
+    .container__box:nth-child(4n) {
+        text-align: none;
+        grid-column: 1/-1;
+        grid-row: 4;
+    }
+
+    .container__box--input {
+        width: 100%;
+        margin: .7rem 0;
     }
 }
 

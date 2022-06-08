@@ -7,4 +7,5 @@
 @import './components/categories.css';
 @import './components/review.css';
 @import './components/blogs.css';
+@import './layouts/footer.css';
 @import './base/media_queries.css';
