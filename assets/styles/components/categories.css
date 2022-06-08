@@ -1,0 +1,31 @@
+.categories__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+}
+
+.content__box {
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background: var(--white);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.content__box--img {
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.content__box--title {
+    font-size: 2rem;
+    color: var(--black);
+    line-height: var(--line-height);
+}
+
+.content__box--text {
+    font-size: 1.7rem;
+    color: var(--black);
+    line-height: var(--line-height);
+    padding: 1rem 0;
+}

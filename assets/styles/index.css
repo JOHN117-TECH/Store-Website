@@ -1,7 +1,8 @@
-@import './base.css';
-@import './utilities.css';
-@import './header.css';
-@import './home.css';
-@import './features.css';
-@import './products.css';
-@import './media_queries.css';
+@import './base/base.css';
+@import './base/utilities.css';
+@import './layouts/header.css';
+@import './components/home.css';
+@import './components/features.css';
+@import './components/products.css';
+@import './components/categories.css';
+@import './base/media_queries.css';

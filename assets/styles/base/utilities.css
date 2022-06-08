@@ -39,3 +39,13 @@
     padding: .5rem 4rem;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
+
+.u-outline {
+    outline: var(--outline);
+    outline-offset: -1rem;
+}
+
+.u-outline:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0;
+}

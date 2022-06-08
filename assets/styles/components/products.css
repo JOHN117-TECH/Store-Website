@@ -11,14 +11,7 @@
     border-radius: .5rem;
     text-align: center;
     padding: 3rem 2rem;
-    outline-offset: -1rem;
-    outline: var(--outline);
     transition: all .2s linear;
-}
-
-.product__box:hover {
-    outline-offset: 0;
-    outline: var(--outline-hover);
 }
 
 .product__box--img {

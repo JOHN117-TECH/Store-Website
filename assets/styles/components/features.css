@@ -7,15 +7,8 @@
 .box-container__item {
     padding: 3rem 2rem;
     background: var(--white);
-    outline: var(--outline);
-    outline-offset: -1rem;
     text-align: center;
     box-shadow: var(--box-shadow);
-}
-
-.box-container__item:hover {
-    outline: var(--outline-hover);
-    outline-offset: 0;
 }
 
 .box-container__item--img {
