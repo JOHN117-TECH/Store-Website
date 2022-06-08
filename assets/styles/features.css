@@ -33,5 +33,5 @@
     font-size: 1.5rem;
     line-height: var(--line-height);
     color: var(--black);
-
+    padding: 1rem 0;
 }
