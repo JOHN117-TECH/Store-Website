@@ -10,6 +10,11 @@
     background: none;
 }
 
+.u-btn:hover {
+    background: var(--orange);
+    color: var(--white);
+}
+
 .u-heading {
     text-align: center;
     padding: 2rem 0;

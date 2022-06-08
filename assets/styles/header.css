@@ -120,13 +120,6 @@ a:active {
     text-align: center;
     margin: 1rem;
 }
-
-.header__shopping-cart--btn:hover {
-    background: var(--orange);
-    color: var(--white);
-
-}
-
 .shopping-cart__box {
     display: flex;
     align-items: center;
