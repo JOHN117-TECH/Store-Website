@@ -1,3 +1,5 @@
+let body = document.querySelector('body');
+let homeSection = document.querySelector('.home');
 let searchForm = document.querySelector('.header__search-form');
 let shoppingCart = document.querySelector('.header__shopping-cart');
 let loginForm = document.querySelector('.header__login-form');
@@ -41,6 +43,14 @@ function funcionalityBtns() {
     loginForm.classList.remove('active');
   }
 
+  document.querySelector('#theme-btn').onclick = () => {
+    body.classList.toggle('dark-theme');
+    homeSection.classList.toggle('filter');
+    navbar.classList.remove('active');
+    shoppingCart.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+  }
 
   window.onscroll = () => {
     navbar.classList.remove('active');
@@ -60,6 +70,7 @@ var swiper = new Swiper(".products__product", {
     disableOnInteraction: false,
   },
   centeredSlides: true,
+  grabCursor: true,
   breakpoints: {
     0: {
       slidesPerView: 1,

@@ -9,6 +9,10 @@
     padding-bottom: 10rem;
 }
 
+.home.filter {
+    filter: brightness(0.9);
+}
+
 .home__content {
     text-align: center;
     width: 60rem;
@@ -24,7 +28,7 @@
 }
 
 .home__content--text {
-    color: var(--light-color);
+    color: var(--grey-2);
     font-size: 1.8rem;
     padding: 1rem 0;
     line-height: var(--line-height);

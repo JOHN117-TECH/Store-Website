@@ -2,14 +2,34 @@
 
 :root {
     --orange: #ff7800;
+    --bg: #F4F6F6;
+    --invert: #1B2631;
+    --invert-2: #F8F9F9;
     --black: #130f40;
     --grey: #eee;
+    --grey-2: #99A3A4;
+    --grey-3: #CCD1D1;
     --white: #fff;
     --light-color: #666;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     --border: .2rem solid rgba(0, 0, 0, .1);
     --line-height: 1.8;
     --outline: .1rem solid rgba(0, 0, 0, .1);
+    --outline-hover: .2rem solid var(--black);
+}
+
+.dark-theme {
+    --orange: #27AE60;
+    --bg: #2E4053;
+    --invert: #283747;
+    --invert-2: #283747;
+    --black: #fff;
+    --grey: #B3B6B7;
+    --grey-2: #7F8C8D;
+    --grey-3: #FBFCFC;
+    --white: #17202A;
+    --light-color: #D5DBDB;
+    --outline: .1rem solid rgb(255, 255, 255);
     --outline-hover: .2rem solid var(--black);
 }
 
@@ -33,7 +53,7 @@ html {
 }
 
 body {
-    background: var(--grey);
+    background: var(--bg);
 }
 
 section {

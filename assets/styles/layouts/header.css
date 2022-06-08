@@ -8,8 +8,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 7%;
-    background: #fff;
     box-shadow: var(--box-shadow);
+    background: var(--invert-2);
 }
 
 .header--logo {
@@ -67,7 +67,7 @@ a:active {
     /* transform: translateX(200rem); */
     width: 50rem;
     height: 4.5rem;
-    background: var(--white);
+    background: var(--grey-3);
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
@@ -81,7 +81,7 @@ a:active {
     background: none;
     text-transform: none;
     font-size: 1.6rem;
-    color: var(--black);
+    color: var(--invert);
     padding: 0 1.5rem;
 }
 
@@ -120,6 +120,7 @@ a:active {
     text-align: center;
     margin: 1rem;
 }
+
 .shopping-cart__box {
     display: flex;
     align-items: center;
@@ -173,6 +174,7 @@ a:active {
 }
 
 .header__login-form--title {
+    color: var(--black);
     font-size: 2.5rem;
     text-transform: uppercase;
 
@@ -180,11 +182,11 @@ a:active {
 
 .header__login-form--input {
     margin: .8rem 0;
-    background: var(--grey);
+    background: var(--grey-3);
     border-radius: .5rem;
     padding: 1rem;
     font-size: 1.6rem;
-    color: var(--black);
+    color: var(--invert);
     text-transform: none;
 }
 
