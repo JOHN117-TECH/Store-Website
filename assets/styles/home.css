@@ -27,5 +27,11 @@
     color: var(--light-color);
     font-size: 1.8rem;
     padding: 1rem 0;
-    line-height: 1.8;
+    line-height: var(--line-height);
+}
+
+.home__content--btn:hover {
+    cursor: pointer;
+    color: var(--white);
+    background: var(--orange);
 }

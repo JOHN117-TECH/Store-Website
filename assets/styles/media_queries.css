@@ -16,9 +16,17 @@
 
 @media (max-width:760px) {
 
+    .u-heading {
+        font-size: 2.5rem;
+    }
+
+    /* ################## */
+
     #menu-btn {
         display: inline-block;
     }
+
+    /* ################## */
 
     .header__navbar {
         position: absolute;
@@ -42,6 +50,8 @@
     .header__search-form {
         width: 90%;
     }
+
+    /* ################## */
 }
 
 
@@ -49,6 +59,8 @@
     html {
         font-size: 50%;
     }
+
+    /* ################## */
 
     .header__navbar {
         width: 25rem;
