@@ -15,7 +15,7 @@
     --border: .2rem solid rgba(0, 0, 0, .1);
     --line-height: 1.8;
     --outline: .1rem solid rgba(0, 0, 0, .1);
-    --outline-hover: .2rem solid var(--black);
+    --outline-hover: .2rem solid rgba(0, 0, 0, .1);
 }
 
 .dark-theme {
@@ -29,8 +29,11 @@
     --grey-3: #FBFCFC;
     --white: #17202A;
     --light-color: #D5DBDB;
-    --outline: .1rem solid rgb(255, 255, 255);
-    --outline-hover: .2rem solid var(--black);
+    --box-shadow: 0 .5rem 1.5rem rgba(168, 168, 168, 0.377);
+    --border: .2rem solid rgba(168, 168, 168, 0.377);
+    --line-height: 1.8;
+    --outline: .1rem solid rgba(168, 168, 168, 0.377);
+    --outline-hover: .2rem solid rgba(168, 168, 168, 0.377);
 }
 
 * {
