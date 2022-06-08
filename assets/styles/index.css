@@ -8,4 +8,5 @@
 @import './components/review.css';
 @import './components/blogs.css';
 @import './layouts/footer.css';
+@import './components/scrollbar.css';
 @import './base/media_queries.css';
