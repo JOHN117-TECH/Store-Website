@@ -5,6 +5,7 @@ let shoppingCart = document.querySelector('.header__shopping-cart');
 let loginForm = document.querySelector('.header__login-form');
 let navbar = document.querySelector('.header__navbar');
 let buttons = document.querySelectorAll('.header__icons--item');
+let currentTheme = localStorage.getItem('currentTheme');
 
 function funcionalityBtns() {
   for (let i = 0; i < buttons.length; i++) {
@@ -43,6 +44,8 @@ function funcionalityBtns() {
     loginForm.classList.remove('active');
   }
 
+  currentTheme && body.classList.add('dark-theme');
+  
   document.querySelector('#theme-btn').onclick = () => {
     body.classList.toggle('dark-theme');
     homeSection.classList.toggle('filter');
@@ -50,6 +53,10 @@ function funcionalityBtns() {
     shoppingCart.classList.remove('active');
     searchForm.classList.remove('active');
     loginForm.classList.remove('active');
+
+    body.classList.contains('dark-theme')
+      ? localStorage.setItem('currentTheme', 'dark-theme')
+      : localStorage.removeItem('currentTheme')
   }
 
   window.onscroll = () => {
