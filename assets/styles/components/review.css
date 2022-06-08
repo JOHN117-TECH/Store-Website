@@ -4,17 +4,6 @@
     gap: 1.5rem;
 }
 
-.review__form {
-    background: var(--white);
-    border-radius: .5rem;
-    text-align: center;
-    padding: 3rem 2rem;
-    transition: all .2s linear;
-    box-shadow: var(--box-shadow);
-    width: 100%;
-}
-
-
 .review-slider {
     width: 50rem;
     height: 50rem;
@@ -59,4 +48,100 @@
 .review__box--stars i {
     color: var(--orange);
     font-size: 1.7rem;
+}
+
+.review__form {
+    background: var(--white);
+    border-radius: .5rem;
+    padding: 3rem 4.5rem;
+    transition: all .2s linear;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.review__form--title {
+    font-size: 2rem;
+}
+
+.review__form--title span {
+    font-size: 2.5rem;
+    padding: 0 .5rem;
+    color: var(--orange);
+}
+
+.review__form--input {
+    height: 4rem;
+    width: 80%;
+    background: var(--grey);
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.review__form--textarea {
+    width: 100%;
+    background: var(--grey);
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    resize: none;
+}
+
+.review__form--textarea::placeholder,
+.review__form--input::placeholder {
+    color: var(--orange);
+}
+
+.review__form--rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    margin-top: 1rem;
+}
+
+.review__form--rating label {
+    color: var(--light-color);
+    font-size: 3rem;
+}
+
+
+.review__form--rating label i {
+    padding: 0 1rem;
+}
+
+.review__form--rating label:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.review__form--rating label:hover~label {
+    color: var(--orange);
+}
+
+.review__form--rating input {
+    display: none;
+}
+
+.review__form--rating input:checked~label {
+    color: var(--orange);
+}
+
+.review__form--btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
 }
