@@ -64,11 +64,14 @@ var swiper = new Swiper(".products__product", {
     0: {
       slidesPerView: 1,
     },
-    768: {
+    900: {
       slidesPerView: 2,
     },
     1020: {
       slidesPerView: 3,
+    },
+    1600: {
+      slidesPerView: 5,
     },
   },
 });
