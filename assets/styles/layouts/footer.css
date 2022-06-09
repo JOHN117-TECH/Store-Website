@@ -87,8 +87,10 @@
 
 
 .container__box--img {
+    width: 40rem;
     margin-top: 2rem;
-    height: 3rem;
+    height: 4rem;
+    object-fit: cover;
     display: block;
 }
 
