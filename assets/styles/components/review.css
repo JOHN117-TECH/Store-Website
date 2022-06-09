@@ -50,6 +50,11 @@
     font-size: 1.7rem;
 }
 
+.review__box--stars i.empty {
+    color: var(--grey-3);
+}
+
+
 .review__form {
     background: var(--white);
     border-radius: .5rem;
