@@ -1,31 +1,31 @@
 .categories__content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
 }
 
 .content__box {
-    padding: 3rem 2rem;
-    border-radius: .5rem;
     background: var(--white);
+    border-radius: .5rem;
     outline-offset: -1rem;
+    padding: 3rem 2rem;
     text-align: center;
 }
 
 .content__box--img {
-    margin: 1rem 0;
     height: 15rem;
+    margin: 1rem 0;
 }
 
 .content__box--title {
-    font-size: 2rem;
     color: var(--black);
+    font-size: 2rem;
     line-height: var(--line-height);
 }
 
 .content__box--text {
-    font-size: 1.7rem;
     color: var(--black);
+    font-size: 1.7rem;
     line-height: var(--line-height);
     padding: 1rem 0;
 }

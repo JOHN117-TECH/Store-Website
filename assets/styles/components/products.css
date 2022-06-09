@@ -9,8 +9,8 @@
 .product__box {
     background: var(--white);
     border-radius: .5rem;
-    text-align: center;
     padding: 3rem 2rem;
+    text-align: center;
     transition: all .2s linear;
 }
 
@@ -19,24 +19,23 @@
 }
 
 .product__box--title {
-    font-size: 2.5rem;
     color: var(--black);
+    font-size: 2.5rem;
 }
 
 .product__box--price {
-    font-size: 2rem;
     color: var(--light-color);
+    font-size: 2rem;
     padding: .5rem 0;
-
 }
 
 .product__box--stars {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
     direction: rtl;
+    display: flex;
+    justify-content: center;
     unicode-bidi: bidi-override;
+    width: 100%;
 }
 
 .product__box--stars label {
@@ -54,8 +53,8 @@
 }
 
 .product__box--stars label:hover {
-    cursor: pointer;
     color: var(--primary);
+    cursor: pointer;
 }
 
 .product__box--stars label:hover~label {

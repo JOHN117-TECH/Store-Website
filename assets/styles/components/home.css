@@ -1,14 +1,14 @@
 .home {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    background: url(../../image/banner-bg.png) no-repeat;
     background-position: right top;
     background-size: cover;
-    padding-top: 17rem;
-    padding-bottom: 10rem;
-    height: auto;
+    background: url(../../image/banner-bg.png) no-repeat;
+    display: flex;
     filter: brightness(0.8);
+    height: auto;
+    justify-content: center;
+    padding-bottom: 10rem;
+    padding-top: 17rem;
 }
 
 .home.filter {
@@ -16,9 +16,9 @@
 }
 
 .home__content {
+    margin-top: 10rem;
     text-align: center;
     width: 60rem;
-    margin-top: 10rem;
 }
 
 .home__content--title {
@@ -33,20 +33,20 @@
 .home__content--text {
     color: var(--grey-2);
     font-size: 1.8rem;
-    padding: 1rem 0;
     line-height: var(--line-height);
+    padding: 1rem 0;
 }
 
 .home__content--btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: .8rem 3rem;
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    cursor: pointer;
     background: none;
+    border-radius: .5rem;
     border: .2rem solid var(--invert);
     color: var(--invert) !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
 }
 
 .home__content--btn:hover {

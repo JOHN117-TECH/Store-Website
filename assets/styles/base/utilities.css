@@ -1,13 +1,13 @@
 .u-btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: .8rem 3rem;
-    font-size: 1.7rem;
+    background: none;
     border-radius: .5rem;
     border: .2rem solid var(--black);
     color: var(--black);
     cursor: pointer;
-    background: none;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
 }
 
 .u-btn:hover {
@@ -16,19 +16,19 @@
 }
 
 .u-heading {
-    text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
-    font-size: 3.5rem;
     color: var(--black);
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    padding: 2rem 0;
+    text-align: center;
 }
 
 .u-heading span {
     background: var(--primary);
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
     color: var(--white);
     display: inline-block;
     padding: .5rem 3rem;
-    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
 .u-heading span.rabbet {
@@ -36,33 +36,38 @@
 }
 
 .u-heading span.close {
-    padding: .5rem 4rem;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    padding: .5rem 4rem;
 }
 
 .u-heading span.right-point {
-    padding: .5rem 2.5rem;
-    padding-left: 1.5rem;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    padding-left: 1.5rem;
+    padding: .5rem 2.5rem;
 }
 
 .u-heading span.message {
-    transform: translatey(-10%);
-    padding: 0.5rem 2rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    padding: 0.5rem 2rem;
+    transform: translatey(-10%);
 }
 
 
 .u-outline {
-    outline: var(--outline);
     outline-offset: -1rem;
+    outline: var(--outline);
 }
 
 .u-outline:hover {
-    outline: var(--outline-hover);
     outline-offset: 0;
+    outline: var(--outline-hover);
 }
 
 .u-none {
     display: none;
+}
+
+.u-active {
+    right: 2rem !important;
+    transition: .4s linear !important;
 }

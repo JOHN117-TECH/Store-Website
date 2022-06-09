@@ -5,21 +5,21 @@
 
     /* ################## */
     .container__box:nth-child(4n) {
-        text-align: center;
         grid-column: 1/4;
         grid-row: 2/3;
         padding: 0.5rem 2rem;
+        text-align: center;
     }
 
     .container__box--input {
-        width: 70%;
         margin: .7rem 1.5rem;
+        width: 70%;
     }
 
     .container__box:nth-child(4n) {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
 
@@ -59,22 +59,22 @@
     /* ################## */
 
     .header__navbar {
-        position: absolute;
-        top: 110%;
-        right: -110%;
-        width: 30rem;
-        box-shadow: var(--box-shadow);
-        border-radius: .5rem;
         background: var(--white);
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+        position: absolute;
+        right: -110%;
         text-align: center;
+        top: 110%;
+        width: 30rem;
     }
 
     .header__navbar a:link,
     a:visited {
+        display: block;
         font-size: 2rem;
         margin: 2rem 0rem;
         padding: 0.5rem;
-        display: block;
     }
 
     .header__search-form {
@@ -122,21 +122,21 @@
     /* ################## */
 
     .header__navbar {
-        width: 25rem;
         text-align: right;
+        width: 25rem;
     }
 
     .header__navbar a:link,
     a:visited {
+        display: block;
         font-size: 2rem;
         margin: 2.5rem 2.5rem;
         padding: 0.5rem;
-        display: block;
     }
 
     .header__shopping-cart {
-        width: 90%;
         padding: 0rem;
+        width: 90%;
     }
 
     .header__shopping-cart--total {
@@ -144,8 +144,8 @@
     }
 
     .header__login-form {
-        width: 90%;
         padding: 4rem;
+        width: 90%;
     }
 
     .header__login-form--input {
@@ -168,15 +168,15 @@
 
     /* ################## */
     .container__box:nth-child(4n) {
-        text-align: start;
+        align-items: start;
         grid-column: 1/-1;
         grid-row: 4;
-        align-items: start;
+        text-align: start;
     }
 
     .container__box--input {
-        width: 100%;
         margin: .7rem 0;
+        width: 100%;
     }
 }
 

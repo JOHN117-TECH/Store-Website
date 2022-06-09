@@ -1,49 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root {
-    --primary: #ff7800;
     --bg: #F4F6F6;
-    --invert: #1B2631;
-    --invert-2: #F8F9F9;
-    --permanet:#fff;
     --black: #130f40;
-    --grey: #eee;
+    --border: .2rem solid rgba(0, 0, 0, .1);
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     --grey-2: #99A3A4;
     --grey-3: #CCD1D1;
-    --white: #fff;
+    --grey: #eee;
+    --invert-2: #F8F9F9;
+    --invert: #1B2631;
     --light-color: #666;
-    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-    --border: .2rem solid rgba(0, 0, 0, .1);
     --line-height: 1.8;
-    --outline: .1rem solid rgba(0, 0, 0, .1);
     --outline-hover: .2rem solid rgba(0, 0, 0, .1);
+    --outline: .1rem solid rgba(0, 0, 0, .1);
+    --permanet: #fff;
+    --primary: #ff7800;
+    --white: #fff;
 }
 
 .dark-theme {
-    --primary: #27AE60;
     --bg: #2E4053;
-    --invert: #283747;
-    --invert-2: #283747;
     --black: #fff;
-    --grey: #B3B6B7;
+    --border: .2rem solid rgba(168, 168, 168, 0.377);
+    --box-shadow: 0 .5rem 1.5rem rgba(168, 168, 168, 0.377);
     --grey-2: #7F8C8D;
     --grey-3: #FBFCFC;
-    --white: #17202A;
+    --grey: #B3B6B7;
+    --invert-2: #283747;
+    --invert: #283747;
     --light-color: #D5DBDB;
-    --box-shadow: 0 .5rem 1.5rem rgba(168, 168, 168, 0.377);
-    --border: .2rem solid rgba(168, 168, 168, 0.377);
     --line-height: 1.8;
-    --outline: .1rem solid rgba(168, 168, 168, 0.377);
     --outline-hover: .2rem solid rgba(168, 168, 168, 0.377);
+    --outline: .1rem solid rgba(168, 168, 168, 0.377);
+    --primary: #27AE60;
+    --white: #17202A;
 }
 
 * {
+    border: none;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     outline: none;
-    border: none;
+    padding: 0;
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;

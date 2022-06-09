@@ -17,42 +17,42 @@ function funcionalityBtns() {
   }
 
   document.querySelector('#search-btn').onclick = () => {
-    searchForm.classList.toggle('active');
-    shoppingCart.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
+    searchForm.classList.toggle('u-active');
+    shoppingCart.classList.remove('u-active');
+    loginForm.classList.remove('u-active');
+    navbar.classList.remove('u-active');
   }
 
   document.querySelector('#cart-btn').onclick = () => {
-    shoppingCart.classList.toggle('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
-    navbar.classList.remove('active');
+    shoppingCart.classList.toggle('u-active');
+    searchForm.classList.remove('u-active');
+    loginForm.classList.remove('u-active');
+    navbar.classList.remove('u-active');
   }
 
   document.querySelector('#login-btn').onclick = () => {
-    loginForm.classList.toggle('active');
-    shoppingCart.classList.remove('active');
-    searchForm.classList.remove('active');
-    navbar.classList.remove('active');
+    loginForm.classList.toggle('u-active');
+    shoppingCart.classList.remove('u-active');
+    searchForm.classList.remove('u-active');
+    navbar.classList.remove('u-active');
   }
 
   document.querySelector('#menu-btn').onclick = () => {
-    navbar.classList.toggle('active');
-    shoppingCart.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
+    navbar.classList.toggle('u-active');
+    shoppingCart.classList.remove('u-active');
+    searchForm.classList.remove('u-active');
+    loginForm.classList.remove('u-active');
   }
 
   currentTheme && body.classList.add('dark-theme');
-  
+
   document.querySelector('#theme-btn').onclick = () => {
     body.classList.toggle('dark-theme');
     homeSection.classList.toggle('filter');
-    navbar.classList.remove('active');
-    shoppingCart.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
+    navbar.classList.remove('u-active');
+    shoppingCart.classList.remove('u-active');
+    searchForm.classList.remove('u-active');
+    loginForm.classList.remove('u-active');
 
     body.classList.contains('dark-theme')
       ? localStorage.setItem('currentTheme', 'dark-theme')
@@ -60,10 +60,10 @@ function funcionalityBtns() {
   }
 
   window.onscroll = () => {
-    navbar.classList.remove('active');
-    shoppingCart.classList.remove('active');
-    searchForm.classList.remove('active');
-    loginForm.classList.remove('active');
+    navbar.classList.remove('u-active');
+    shoppingCart.classList.remove('u-active');
+    searchForm.classList.remove('u-active');
+    loginForm.classList.remove('u-active');
   }
 }
 

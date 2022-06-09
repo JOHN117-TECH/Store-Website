@@ -1,18 +1,18 @@
 .footer {
     background: var(--white);
-    padding: 2rem;
     border-top: 1px solid var(--black);
+    padding: 2rem;
 }
 
 .footer__container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .container__box--title {
-    font-size: 2.5rem;
     color: var(--black);
+    font-size: 2.5rem;
     padding: 1rem 0;
 }
 
@@ -21,9 +21,9 @@
 }
 
 .container__box--links {
+    color: var(--grey-3);
     display: block;
     font-size: 1.5rem;
-    color: var(--grey-3);
     padding: 1rem 0;
 }
 
@@ -38,31 +38,31 @@
 
 
 .container__box--text {
-    line-height: var(--line-height);
-    font-size: 1.5rem;
     color: var(--grey-3);
+    font-size: 1.5rem;
+    line-height: var(--line-height);
     padding: 1rem 0;
     text-transform: bold;
 }
 
 .container__box:nth-child(4n) .container__box--text {
-    line-height: var(--line-height);
-    font-size: 1.5rem;
     color: var(--grey-3);
-    padding: 1rem 0;
+    font-size: 1.5rem;
     font-weight: 900;
+    line-height: var(--line-height);
+    padding: 1rem 0;
 }
 
 .container__box--share a {
-    height: 4rem;
-    width: 4rem;
-    line-height: 4rem;
-    border-radius: .5rem;
-    font-size: 2rem;
-    color: var(--black);
-    margin-right: .2rem;
     background: var(--white);
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    margin-right: .2rem;
     text-align: center;
+    width: 4rem;
 }
 
 .container__box--share a:hover {
@@ -71,14 +71,14 @@
 }
 
 .container__box--input {
-    width: 100%;
+    background: var(--grey-3);
+    border-radius: .5rem;
+    color: var(--black);
+    font-size: 1.6rem;
     margin: .7rem 0;
     padding: 1rem;
-    border-radius: .5rem;
-    background: var(--grey-3);
-    font-size: 1.6rem;
-    color: var(--black);
     text-transform: none;
+    width: 100%;
 }
 
 .container__box--input::placeholder {
@@ -87,21 +87,21 @@
 
 
 .container__box--img {
-    width: 40rem;
-    margin-top: 2rem;
-    height: 4rem;
-    object-fit: cover;
     display: block;
+    height: 4rem;
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 40rem;
 }
 
 .footer__credit {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    padding-top: 2.5rem;
-    font-size: 2rem;
-    color: var(--black);
     border-top: var(--border);
+    color: var(--black);
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 .footer__credit span {
