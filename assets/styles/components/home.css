@@ -27,7 +27,7 @@
 }
 
 .home__content--title span {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .home__content--text {
@@ -50,6 +50,6 @@
 }
 
 .home__content--btn:hover {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--permanet) !important;
 }

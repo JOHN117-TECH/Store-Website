@@ -19,7 +19,7 @@
 }
 
 .header--logo i {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .header__navbar a:link,
@@ -31,7 +31,7 @@ a:visited {
 
 .header__navbar a:hover,
 a:active {
-    color: var(--orange);
+    color: var(--primary);
     text-decoration: underline;
 }
 
@@ -49,7 +49,7 @@ a:active {
 }
 
 .header__icons--item:hover {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--white);
 }
 
@@ -61,7 +61,6 @@ a:active {
     position: absolute;
     top: 110%;
     right: -110rem;
-    /* transform: translateX(200rem); */
     width: 50rem;
     height: 4.5rem;
     background: var(--grey-3);
@@ -83,7 +82,7 @@ a:active {
 }
 
 .header__search-form--input::placeholder {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .header__search-form--label {
@@ -94,7 +93,7 @@ a:active {
 }
 
 .header__search-form--label:hover {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .header__shopping-cart {
@@ -140,7 +139,7 @@ a:active {
 }
 
 .shopping-cart__box--icon:hover {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .shopping-cart__box--img {
@@ -192,7 +191,7 @@ a:active {
 }
 
 .header__login-form--input::placeholder {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .header__login-form--text {
@@ -202,14 +201,13 @@ a:active {
 }
 
 .header__login-form--text a {
-    color: var(--orange);
+    color: var(--primary);
     text-decoration: underline;
 }
 
 /*  Javascript */
 .header__search-form.active {
     right: 2rem;
-    /* transform: translateX(15rem); */
     transition: .4s linear;
 
 }
@@ -231,6 +229,6 @@ a:active {
 }
 
 .header__icons--item.active-btn {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--white);
 }

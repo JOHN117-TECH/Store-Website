@@ -46,7 +46,7 @@
 }
 
 .review__box--stars i {
-    color: var(--orange);
+    color: var(--primary);
     font-size: 1.7rem;
 }
 
@@ -75,7 +75,7 @@
 .review__form--title span {
     font-size: 2.5rem;
     padding: 0 .5rem;
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .review__form--input {
@@ -104,7 +104,7 @@
 
 .review__form--textarea::placeholder,
 .review__form--input::placeholder {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .review__form--rating {
@@ -129,11 +129,11 @@
 
 .review__form--rating label:hover {
     cursor: pointer;
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .review__form--rating label:hover~label {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .review__form--rating input {
@@ -141,7 +141,7 @@
 }
 
 .review__form--rating input:checked~label {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .review__form--btns {

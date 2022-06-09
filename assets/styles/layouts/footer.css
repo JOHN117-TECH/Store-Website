@@ -17,7 +17,7 @@
 }
 
 .container__box--title i {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .container__box--links {
@@ -28,7 +28,7 @@
 }
 
 .container__box--links i {
-    color: var(--orange);
+    color: var(--primary);
     padding-right: .5rem;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .container__box--share a:hover {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--white);
 }
 
@@ -82,7 +82,7 @@
 }
 
 .container__box--input::placeholder {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 
@@ -105,5 +105,5 @@
 }
 
 .footer__credit span {
-    color: var(--orange);
+    color: var(--primary);
 }

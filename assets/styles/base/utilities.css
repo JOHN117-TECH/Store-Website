@@ -11,7 +11,7 @@
 }
 
 .u-btn:hover {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--white);
 }
 
@@ -24,7 +24,7 @@
 }
 
 .u-heading span {
-    background: var(--orange);
+    background: var(--primary);
     color: var(--white);
     display: inline-block;
     padding: .5rem 3rem;

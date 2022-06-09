@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root {
-    --orange: #ff7800;
+    --primary: #ff7800;
     --bg: #F4F6F6;
     --invert: #1B2631;
     --invert-2: #F8F9F9;
@@ -20,7 +20,7 @@
 }
 
 .dark-theme {
-    --orange: #27AE60;
+    --primary: #27AE60;
     --bg: #2E4053;
     --invert: #283747;
     --invert-2: #283747;

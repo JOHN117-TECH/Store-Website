@@ -41,7 +41,7 @@
 }
 
 .blog__content--icons a i {
-    color: var(--orange);
+    color: var(--primary);
     padding-right: .5rem;
 }
 

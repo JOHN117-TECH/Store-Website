@@ -45,7 +45,7 @@
 }
 
 .product__box--stars label i.completed {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 
@@ -55,14 +55,13 @@
 
 .product__box--stars label:hover {
     cursor: pointer;
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .product__box--stars label:hover~label {
-    color: var(--orange);
+    color: var(--primary);
 }
 
 .product__box--stars input {
     display: none;
 }
-
